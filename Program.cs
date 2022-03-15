@@ -1,16 +1,16 @@
 ﻿using System;
-namespace LambdaProgram
+
+namespace AddressBook
 {
     class Program
     {
-        public static void Main(string[]args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book Program");
-
-            ////UC1
-
-            //Person person = new Person();
-            //person.FirstPerson();
+            Console.WriteLine("Welcome to the Address Book System");
+            Console.WriteLine("Welcome to the Address Book System");
+            Console.ReadLine();
+            NewAddressBook.GetCustomer();
+            NewAddressBook.ListingPeople();
         }
     }
 }
